@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "spartan";
+    src: url(./../fonts/Spartan-Light.ttf) format('truetype');
+    font-weight: 100;
+}
+
+/* @font-face {
+    font-family: "spartan";
+    src: url(./../fonts/Spartan-Medium.ttf) format('truetype');
+    font-weight: 400;
+} */
+
+body {
+    font-family: spartan;
+}
+
+/* .service-desc, #intro-text, .service-content p{
+    font-weight: 100;
+} */

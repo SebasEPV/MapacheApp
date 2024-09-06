@@ -1,0 +1,140 @@
+a {
+    letter-spacing: 2px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    padding: 10px 30px 5px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #FFF;
+    border-bottom: 2px #000 solid;
+    padding-bottom: 5px;
+}
+
+header {
+    margin: 0;
+}
+
+body {
+    margin-top: 95px;
+}
+
+.nav-bar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#logos {
+    width: 15%;
+    margin-right: 20px;
+    max-height: 120px;
+    min-width: 220px;
+}
+
+.nav-links {
+    display: flex;
+    /* justify-content: space-between; */
+    /* Spreads links evenly */
+    flex: 1;
+    /* Ensures links take the remaining space */
+    justify-content: right;
+}
+
+.nav-links a {
+    margin: 0px 15px 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+    position: relative;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Underline animation for all nav links */
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    left: 50%;
+    bottom: -5px;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 95%;
+    left: 0;
+}
+
+/* Hamburger menu styling */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: #000;
+    margin: 4px;
+    transition: all 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    #logos {
+        max-width: 200px;
+        width: 50%;
+    }
+
+    .nav-bar {
+        padding-bottom: 10px;
+    }
+
+    .nav-bar nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        position: fixed;
+        vertical-align: middle;
+        right: 4%;
+    }
+
+    .nav-links a:hover {
+        transform: scale(1.07);
+    }
+}
