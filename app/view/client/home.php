@@ -32,6 +32,9 @@ h1 {
     overflow: hidden;
     height: 70vh;
     margin-bottom: 1.25rem; /* 20px */
+}
+
+#slider {
     margin-top: 1.25rem; /* 20px */
 }
 
@@ -230,12 +233,11 @@ h3 {
                 <div class="slides slides-services">
                     <a class="service" href="./services.php#rrss" title="Servicio de manejo de redes">
                         <div class="content">
-                            <h3>RRSS</h3>
+                            <h3>MKT</h3>
                             <ul class="service-desc">
                                 <li>Manejo de redes sociales</li>
                                 <li>Facebook & Instagram Ads</li>
-                                <li>Landing pages</li>
-                                <li>Posicionamiento SEO</li>
+                                <li>Storytelling y Copywritting</li>
                             </ul>
                         </div>
                         <img src="./../../../public/assets/imgs/logoNombre.jpg" alt="RRSS Service">
@@ -244,10 +246,10 @@ h3 {
                         <div class="content">
                             <h3>Branding</h3>
                             <ul class="service-desc">
-                                <li>Naming</li>
-                                <li>Logotipo e Identidad visual</li>
+                                <li>Naming y Logotipo</li>
+                                <li>Identidad de Marca</li>
                                 <li>Material digital e impreso</li>
-                                <li>Rediseño de marca “Refresh”</li>
+                                <li>Rebrand de Marca</li>
                             </ul>
                         </div>
                         <img src="./../../../public/assets/imgs/logo.png" alt="Branding Service">
@@ -256,17 +258,16 @@ h3 {
                         <div class="content">
                             <h3>Network</h3>
                             <ul class="service-desc">
-                                <li>OnePage</li>
-                                <li>Shopify & Shopify Plus</li>
+                                <li>Landing Page</li>
+                                <li>Shopify</li>
                                 <li>Web a la medida (HTML)</li>
-                                <li>CRM a medida</li>
                             </ul>
                         </div>
                         <img src="./../../../public/assets/imgs/logoNombre.jpg" alt="Network Service">
                     </a>
                     <a class="service" href="./services.php#addOn" title="Servicios Adicionales">
                         <div class="content">
-                            <h3>Add On's</h3>
+                            <h3>Production</h3>
                             <ul class="service-desc">
                                 <li>Video de marca</li>
                                 <li>Video de producto</li>

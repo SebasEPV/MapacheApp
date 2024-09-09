@@ -32,8 +32,8 @@
             <div class="check">
                 <label class="check-title">Servicio en el que estás interesado:</label>
                 <div class="check-item">
-                    <input type="checkbox" id="RRSS" class="checkbox" name="service" value="RRSS">
-                    <label for="RRSS">RRSS</label>
+                    <input type="checkbox" id="MKT" class="checkbox" name="service" value="MKT">
+                    <label for="MKT">MKT</label>
                 </div>
                 <div class="check-item">
                     <input type="checkbox" id="branding" class="checkbox" name="service" value="Branding">
@@ -44,8 +44,8 @@
                     <label for="network">Network</label>
                 </div>
                 <div class="check-item">
-                    <input type="checkbox" id="addOns" class="checkbox" name="service" value="Add On's">
-                    <label for="addOns">Add On's</label>
+                    <input type="checkbox" id="production" class="checkbox" name="service" value="Production">
+                    <label for="production">Production</label>
                 </div>
             </div>
 

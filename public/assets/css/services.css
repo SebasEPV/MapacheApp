@@ -39,7 +39,7 @@ h2 {
 
 .service-content > p {
   font-size: 1.25rem; /* 20px */
-  text-align: justify;
+  text-align: left;
   vertical-align: middle;
 }
 
@@ -58,6 +58,8 @@ h2 {
   .service-img {
     width: 50vw;
     margin: 0 auto 1.25rem auto;
+    min-width: 250px;
+    min-height: auto;
   }
 
   h1 {
