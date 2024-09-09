@@ -19,7 +19,7 @@
     <div id="rrss" class="service-section">
         <div class="service">
             <div class="service-content">
-                <h2>RRSS</h2>
+                <h2>MKT</h2>
                 <p>
                     Eleva tu presencia digital; desde el manejo estratégico de redes sociales hasta campañas publicitarias efectivas en Facebook e Instagram, te brindamos la visibilidad que tu marca merece. Optimizamos tu presencia en línea con atractivas landing pages diseñadas para convertir visitantes en clientes. Además, nuestro enfoque en el posicionamiento SEO garantiza que tu negocio destaque en los motores de búsqueda, asegurando una posición destacada y aumentando tu visibilidad orgánica. Confía en nosotros para potenciar tu presencia digital y maximizar.
                 </p>
@@ -55,7 +55,7 @@
     <div id="addOn" class="service-section">
         <div class="service">
             <div class="service-content">
-                <h2>Add On's</h2>
+                <h2>Production</h2>
                 <p>
 
                 </p>

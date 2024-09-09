@@ -17,8 +17,8 @@
             <p id="contacto">CONTACTO</p>
             <p>MAPACHE HEADQUARTERS</p>
             <p>Punta Tulbayab, SM 24, Mz 1, Lt 68, Int. D6, Cancún, Q. Roo, 77509</p>
-            <p>+52 (998) 151 7778</p>
-            <p>info@mapachestudio.com</p>
+            <a class="phone" href="tel:+529981517778">+52 (998) 151 7778</a>
+            <a class="email" href="mailto:info@mapachestudio.com">info@mapachestudio.com</a>
             <p>SÍGUENOS</p>
             <div class="social-media">
                 <a href="https://www.facebook.com/mapache.agcy/" target="_blank">
