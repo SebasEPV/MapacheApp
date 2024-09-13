@@ -173,8 +173,8 @@
 
             /* Style for each tab button */
             .tab {
-                height: 15px;
-                width: 15px;
+                height: 12px;
+                width: 12px;
                 border-radius: 50%;
                 background-color: transparent;
                 border: 2px solid #666;
@@ -259,8 +259,8 @@
                 }
 
                 .tab {
-                    height: 15px;
-                    width: 15px;
+                    height: 10px;
+                    width: 10px;
                 }
 
                 .tab:hover::after {
@@ -308,8 +308,8 @@
                 }
 
                 .tab {
-                    height: 10px;
-                    width: 10px;
+                    height: 8px;
+                    width: 8px;
                 }
 
                 .tab:hover::after {
