@@ -22,3 +22,10 @@
             <!-- End of nav-bar -->
         </div>
     </header>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
