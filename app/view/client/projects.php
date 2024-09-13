@@ -7,6 +7,8 @@
     <title>Proyectos</title>
     <link rel="stylesheet" href="./../../../public/assets/css/fonts.css">
     <link rel="stylesheet" href="./../../../public/assets/css/projects.css">
+    <link rel="stylesheet" href="./../../../public/assets/css/main.css">
+
 </head>
 
 <body>
@@ -154,6 +156,9 @@
             </div>
         </div>
     </div>
+    <?php
+    include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/whatsappIcon.php")
+    ?>
 </body>
 <?php
 include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/footer.php")

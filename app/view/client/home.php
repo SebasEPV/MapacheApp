@@ -5,14 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Inicio</title>
+        <link rel="stylesheet" href="./../../../public/assets/css/main.css">
         <link rel="stylesheet" href="./../../../public/assets/css/fonts.css">
         <script src="./../../../public/assets/js/home.js" defer></script>
         <style>
-            body {
-                margin: 0;
-                padding: 0;
-            }
-
             h1 {
                 text-align: center;
                 font-size: 4.6875rem;
@@ -185,7 +181,7 @@
                 cursor: pointer;
                 transition: all 0.3s ease;
                 position: relative;
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
                 font-size: 0;
                 /* Hide text initially */
                 display: flex;
@@ -199,7 +195,7 @@
                 background-color: #999;
                 border: 2px solid #999;
                 transform: scale(1.2);
-                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+                box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
             }
 
             /* Hover effect for the tab buttons */
@@ -207,7 +203,7 @@
                 background-color: #777;
                 border-color: #777;
                 transform: scale(1.1);
-                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
             }
 
 
@@ -398,12 +394,15 @@
                     <span class="carousel-button carousel-button-next" data-carousel="services">&gt;</span>
                 </section>
                 <div class="tabs">
-                    <div class="tab active" data-slide="MKT"></div>
-                    <div class="tab" data-slide="Branding"></div>
-                    <div class="tab" data-slide="Network"></div>
-                    <div class="tab" data-slide="Production"></div>
+                    <div class="tab active" data-slide="MKT" title="MKT"></div>
+                    <div class="tab" data-slide="Branding" title="Branding"></div>
+                    <div class="tab" data-slide="Network" title="Network"></div>
+                    <div class="tab" data-slide="Production" title="Production"></div>
                 </div>
             </div>
+            <?php
+            include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/whatsappIcon.php")
+            ?>
         </main>
     </body>
     <?php

@@ -7,11 +7,13 @@
     <title>Nosotros</title>
     <link rel="stylesheet" href="./../../../public/assets/css/aboutUs.css">
     <link rel="stylesheet" href="./../../../public/assets/css/fonts.css">
+    <link rel="stylesheet" href="./../../../public/assets/css/main.css">
 
 </head>
 <header>
     <?php include('./../layouts/nav.php') ?>
 </header>
+
 <body>
     <div class="intro">
         <div class="intro-text">
@@ -21,6 +23,9 @@
         </div>
         <div class="img-box"><img id="logo" src="./../../../public/assets/imgs/LogoNombre.jpg" alt=""></div>
     </div>
+    <?php
+    include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/whatsappIcon.php")
+    ?>
 </body>
 <?php
 include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/footer.php")

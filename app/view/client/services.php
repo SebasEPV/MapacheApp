@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    <link rel="stylesheet" href="./../../../public/assets/css/main.css">
     <link rel="stylesheet" href="./../../../public/assets/css/services.css">
     <link rel="stylesheet" href="./../../../public/assets/css/fonts.css">
 
@@ -65,7 +66,7 @@
     </div>
 
     <?php
-    // include('./../layouts/footer.php')
+    include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/whatsappIcon.php")
     ?>
 </body>
 <?php

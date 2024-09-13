@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./../../../public/assets/css/contact.css">
+    <link rel="stylesheet" href="./../../../public/assets/css/main.css">
     <link rel="stylesheet" href="./../../../public/assets/css/fonts.css">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -60,6 +61,9 @@
             <input class="boton" type="submit" value="Enviar">
         </form>
     </section>
+    <?php
+    include("/xampp_New/htdocs/PROGRA/MapacheApp/app/view/layouts/whatsappIcon.php")
+    ?>
 </body>
 <script src="./../../../public/assets/js/contact.js"></script>
 <?php
