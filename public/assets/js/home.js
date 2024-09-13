@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const prev = document.querySelector(`#${carouselId} .carousel-button-prev`);
         const next = document.querySelector(`#${carouselId} .carousel-button-next`);
         const slidesContainer = document.querySelector(`#${carouselId} .slides`);
+        const tabs = document.querySelectorAll(`#${carouselId} + .tabs .tab`); // Tab selectors
         let currentIndex = 0;
 
         function showSlide(index) {
@@ -14,8 +15,18 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 currentIndex = index;
             }
+
             const offset = -currentIndex * 100;
             slidesContainer.style.transform = `translateX(${offset}%)`;
+
+            // Update active tab
+            tabs.forEach((tab, idx) => {
+                if (idx === currentIndex) {
+                    tab.classList.add("active");
+                } else {
+                    tab.classList.remove("active");
+                }
+            });
         }
 
         prev.addEventListener("click", function () {
@@ -26,14 +37,18 @@ document.addEventListener("DOMContentLoaded", function () {
             showSlide(currentIndex + 1);
         });
 
+        // Tabs click event
+        tabs.forEach((tab, index) => {
+            tab.addEventListener("click", function () {
+                showSlide(index);
+            });
+        });
+
         setInterval(function () {
             showSlide(currentIndex + 1);
         }, 15000);
     }
 
-    initializeCarousel("slider");
-    initializeCarousel("services");
+    initializeCarousel("slider");   // Initialize the first carousel
+    initializeCarousel("services"); // Initialize the second carousel
 });
-
-
-
