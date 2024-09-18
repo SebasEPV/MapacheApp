@@ -15,7 +15,7 @@
                     <a href="./../client/home.php">Inicio</a>
                     <a href="./../client/aboutUs.php">Nosotros</a>
                     <a href="./../client/projects.php">Proyectos</a>
-                    <a href="./../client/services.php" class="dropdown-toggle">Servicios</a>
+                    <a href="./../client/services.php">Servicios</a>
                     <a href="./../client/contact.php">Contacto</a>
                 </div>
             </nav>
