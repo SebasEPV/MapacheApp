@@ -31,13 +31,13 @@
 
     <div id="branding" class="service-section">
         <div class="service">
-            <div class="service-content">
+            <img class="service-img" src="./../../../public/assets/imgs/logo.png" alt="">
+            <div class="service-content content-right">
                 <h2>Branding</h2>
                 <p>
                     Transformamos tu identidad empresarial de principio a fin. Desde la creación de nombres impactantes hasta la materialización de tu visión a través de logotipos y una identidad visual distintiva, nuestro enfoque integral asegura que tu marca se destaque. Nos especializamos en la fusión perfecta entre lo digital y lo impreso, ofreciendo material visual cautivador que comunica la esencia única de tu marca. Y si buscas darle una nueva vida a tu marca, un “refresh” rediseña tu identidad, revitalizando la percepción y proyectando una imagen renovada.
                 </p>
             </div>
-            <img class="service-img" src="./../../../public/assets/imgs/logo.png" alt="">
         </div>
     </div>
 
@@ -55,13 +55,13 @@
 
     <div id="addOn" class="service-section">
         <div class="service">
-            <div class="service-content">
+            <img class="service-img" src="./../../../public/assets/imgs/logo.png" alt="">
+            <div class="service-content content-right">
                 <h2>Production</h2>
                 <p>
 
                 </p>
             </div>
-            <img class="service-img" src="./../../../public/assets/imgs/logo.png" alt="">
         </div>
     </div>
 

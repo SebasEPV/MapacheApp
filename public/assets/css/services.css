@@ -44,6 +44,10 @@ h2 {
   padding: 0 2rem 0 2rem;
 }
 
+.content-right, .content-right > p {
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   .service {
     flex-direction: column;
