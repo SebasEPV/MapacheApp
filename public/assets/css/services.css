@@ -16,9 +16,10 @@ h2 {
 .service {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   padding: 1.25rem; /* 20px */
   border-bottom: 2px solid #ccc;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between;
 }
 
 .service-content {
@@ -28,8 +29,7 @@ h2 {
 }
 
 .service-img {
-  margin: auto;
-  margin: 0 2rem;/* 32px */
+  margin: auto 2rem;/* 32px */
   width: 30vw;
   max-height: 60vh;
 }
@@ -54,11 +54,13 @@ h2 {
     flex-direction: column;
     margin: 0;
     padding: 0.75rem;/* 12px */
+    align-items: center; /* Center items horizontally */
   }
 
   .service-content {
     padding: 0.5rem;/* 8px */
     margin: 0;
+    text-align: center; /* Center text for better readability */
   }
 
   .service-img {
