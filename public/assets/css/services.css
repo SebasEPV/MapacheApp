@@ -18,18 +18,18 @@ h2 {
   flex-direction: row;
   align-items: flex-start;
   padding: 1.25rem; /* 20px */
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 
 .service-content {
   flex: 1;
   margin: auto 1.875rem auto 2rem; /* 20px 0 30px 0 */
-  padding: 0 5rem;
+  padding: 0 5rem;/* 80px */
 }
 
 .service-img {
   margin: auto;
-  margin-right: 2rem;
+  margin: 0 2rem;/* 32px */
   width: 30vw;
   max-height: 60vh;
 }
@@ -39,10 +39,10 @@ h2 {
 }
 
 .service-content > p {
-  font-size: 1rem; /* 20px */
+  font-size: 1rem; /* 16px */
   text-align: left;
   vertical-align: middle;
-  padding: 0 1rem;
+  padding: 0 1rem;/* 16px */
 }
 
 .content-right, .content-right > p {
@@ -53,30 +53,36 @@ h2 {
   .service {
     flex-direction: column;
     margin: 0;
-    padding: 0.75rem;
+    padding: 0.75rem;/* 12px */
   }
 
   .service-content {
-    padding: 5px;
+    padding: 0.5rem;/* 8px */
     margin: 0;
   }
 
   .service-img {
     width: 50vw;
-    margin: 0 auto 1.25rem auto;
+    margin: 0 auto 1.25rem auto;/* 20px */
     min-width: 250px;
     min-height: auto;
+    order: 2;
+  }
+
+  .content-right, .content-right > p {
+    order: 1;
+    text-align: left;
   }
 
   h1 {
-    font-size: 3.75rem;
+    font-size: 3.75rem;/* 60px */
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.5rem;/* 24px */
   }
 
   .service-content > p {
-    font-size: 1rem;
+    font-size: 1rem;/* 16px */
   }
 }

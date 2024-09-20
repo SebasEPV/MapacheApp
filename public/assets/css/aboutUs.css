@@ -45,7 +45,8 @@
     .intro-text {
         width: 100%;
         font-size: 1rem; /* 16px */
-        margin-right: 0;
+        margin-right: 5rem;
+        margin-left: 5rem;
         margin-bottom: 0.625rem; /* 10px */
         padding: 0;
     }

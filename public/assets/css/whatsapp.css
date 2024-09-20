@@ -1,7 +1,7 @@
 #whatsapp-button {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 1.25rem;/* 20px */
+    right: 1.25rem;/* 20px */
     z-index: 1000; /* Ensures it appears on top of other elements */
     transition: transform 0.3s ease; /* Adds a smooth transition effect */
   }
@@ -18,13 +18,13 @@
   .whatsapp-text {
     display: none;
     position: absolute;
-    bottom: 60px; /* Position the bubble above the icon */
+    bottom: 3.75rem; /* Position the bubble above the icon */
     right: 0;
     background-color: #25d366; /* WhatsApp green */
     color: white;
     padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 12px;
+    border-radius: 1rem;
+    font-size: .75rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
     z-index: 1001;

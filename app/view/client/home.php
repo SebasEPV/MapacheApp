@@ -276,7 +276,7 @@
 
                 /* Ensure circles are visible and aligned on larger screens */
                 .tabs {
-                    margin-top: 50px;
+                    margin-top: 1rem;
                     display: flex;
                 }
             }

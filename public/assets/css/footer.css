@@ -46,17 +46,17 @@ footer img:hover {
 }
 
 .social-media {
-    margin-top: 20px;
+    margin-top: 1.25rem;/* 20px */
 }
 
 .social-media img {
-    margin: 0 15px;
+    margin: 0 1rem;/* 16px */
 }
 
 .social-media p {
     font-weight: bold;
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 1.125rem;/* 18px */
+    margin-top: 1rem;/* 16px */
 }
 
 a {
