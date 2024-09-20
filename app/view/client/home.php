@@ -127,12 +127,16 @@
             }
 
             .service-desc {
-                font-size: 1.25rem;
+                font-size: 1rem;
                 /* 20px */
                 line-height: 1.5;
                 letter-spacing: 0.0625rem;
                 /* 1px */
                 margin: 0;
+            }
+
+            .content {
+                margin: 0 2rem;
             }
 
             h3 {

@@ -4,7 +4,7 @@
 
 .project {
     border-bottom: 2px black solid;
-    margin: 10px 0;
+    margin: 1rem;
     padding-bottom: 5px;
 }
 
@@ -24,10 +24,11 @@
 
 /* Create four equal columns that sits next to each other */
 .column {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 24%;
+    flex: 24%;
+    max-width: 24%;
     padding: 0 4px;
+    margin: .5%;
 }
 
 .column img {
