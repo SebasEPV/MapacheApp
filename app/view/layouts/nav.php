@@ -2,7 +2,7 @@
         <!-- Start of the nav-bar -->
         <div class="nav-bar">
             <nav>
-                <img id="logos" src="./../../../public/assets/imgs/logo.png" alt="Logo">
+                <img id="logos" src="./../../../public/assets/imgs/Logotipo_GRIS.png" alt="Logo">
 
                 <!-- Hamburger menu icon -->
                 <div class="hamburger" onclick="toggleMenu()">
