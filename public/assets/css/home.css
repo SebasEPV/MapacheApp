@@ -1,0 +1,36 @@
+.presentation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* To space them apart */
+  flex-wrap: wrap; /* Ensures responsiveness if the screen is too small */
+}
+
+.intro-text {
+  width: 55%; /* Adjusts to allow space for the image */
+  text-align: center;
+  margin: 4% 6%;
+  font-size: 1.2rem; /* Keeps the original font size */
+}
+
+.img-logo {
+  width: 30%; /* Adjusts to fit next to the text */
+  display: inline-block;
+  margin-left: 10px; /* Adds a small margin between text and image */
+}
+
+.services h2 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    flex-direction: column; /* Stacks them on top of each other for smaller screens */
+    text-align: center;
+  }
+
+  .intro-text,
+  .img-logo {
+    width: 100%;
+    margin: 0;
+  }
+}

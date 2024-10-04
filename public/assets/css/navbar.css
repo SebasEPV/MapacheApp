@@ -3,7 +3,7 @@ a {
 }
 
 body {
-    margin: 110px 0 0 0;
+    margin: 105px 0 0 0;
     padding: 0;
 }
 
@@ -14,8 +14,8 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: #FFF;
     border-bottom: 2px #000 solid;
+    background: #0C0D0D;
 }
 
 header {
@@ -39,7 +39,7 @@ header {
 }
 
 .nav-links a {
-    color: #000;
+    color: #FFF;
     font-size: 18px;
     line-height: 1;
     transition: transform 0.2s ease, color 0.2s ease;
