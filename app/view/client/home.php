@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Inicio</title>
-        <link rel="stylesheet" href="./../../../public/assets/css/home.css">
+        <!-- <link rel="stylesheet" href="./../../../public/assets/css/home.css"> -->
         <link rel="stylesheet" href="./../../../public/assets/css/main.css">
         <link rel="stylesheet" href="./../../../public/assets/css/fonts.css">
         <style>
@@ -25,7 +25,7 @@
             }
 
             .intro-text {
-                width: 55%;
+                width: 60%;
                 /* Adjusts to allow space for the image */
                 text-align: center;
                 font-size: 1.2rem;
@@ -33,10 +33,11 @@
             }
 
             .img-logo {
-                width: 30%;
+                width: 7%;
+                height: auto;
                 /* Adjusts to fit next to the text */
                 display: inline-block;
-                margin-left: 10px;
+                margin-right: 7rem;
                 /* Adds a small margin between text and image */
             }
 
@@ -65,23 +66,36 @@
                 border-radius: 20px;
             }
 
+            .presentation,
+            .services,
+            .portfolio-container,
+            .clients {
+                padding: 30px 75px;
+            }
+
             @media (max-width: 768px) {
                 .service {
                     width: 45%;
                     /* Adjusts the width for smaller screens to fit side by side */
                 }
 
-                .presentation {
-                    flex-direction: column;
-                    /* Stacks them on top of each other for smaller screens */
-                    text-align: center;
+                .presentation,
+                .services,
+                .portfolio-container,
+                .clients {
+                    padding: 15px 5px;
                 }
 
-                .intro-text,
-                .img-logo {
+                .intro-text {
                     width: 100%;
-                    margin: 0;
                 }
+
+                .img-logo {
+                    margin-right: 0;
+                    height: 10vh;
+                    width: auto;
+                }
+
             }
 
             @media (max-width: 480px) {
@@ -89,10 +103,6 @@
                     width: 100%;
                     /* Stacks the .service divs vertically for very small screens */
                 }
-            }
-
-            .presentation, .services, .portfolio-container, .clients {
-                padding: 30px 60px;
             }
         </style>
     </head>
@@ -111,7 +121,7 @@
                     <br><br>
                     En <strong>Mapache Headquarters</strong> nuestra dedicación a contar historias de marca a través de UGC refleja un compromiso excepcional con la cretividad y narrativa visual.
                 </p>
-                <img src="" alt="Logo de Mapache Headquarters" class="img-logo">
+                <img src="./../../../public/assets/imgs/Isotipo.png" alt="Logo de Mapache Headquarters" class="img-logo">
             </div>
             <h2>LO QUE HACEMOS</h2>
 

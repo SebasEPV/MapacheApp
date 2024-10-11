@@ -23,9 +23,4 @@
         </div>
     </header>
 
-    <script>
-        function toggleMenu() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('show');
-        }
-    </script>
+    <script src="./../../../public/assets/js/navbar.js"></script>
